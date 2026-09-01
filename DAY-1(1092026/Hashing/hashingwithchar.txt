@@ -1,0 +1,18 @@
+Count character frequency
+Find duplicate characters
+Count distinct characters
+Find first non-repeating character
+Find most frequent character
+Find characters appearing exactly once
+Medium
+Valid Anagram
+Group Anagrams
+Isomorphic Strings
+Word Pattern
+Find all duplicate characters
+Check if two strings have the same character set
+Later
+Longest substring without repeating characters
+Minimum Window Substring
+Find all anagrams in a string
+Longest substring with K distinct characters
