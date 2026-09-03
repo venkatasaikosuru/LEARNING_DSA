@@ -113,105 +113,92 @@ I learned the fundamentals of **Recursion** and how a function repeatedly calls 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# 📚 DSA Learning Progress — Day 2
+📚 DSA Learning Progress — Day 2
 
-> **Daily DSA Practice & Learning Log**
+Daily DSA Practice & Learning Log
 
----
+📅 Daily Summary
+Details	Information
+📆 Date	September 2, 2026
+📍 Day	Wednesday
+✅ Status	Completed
+1️⃣ Sorting
 
-## 📅 Daily Summary
+Today I learned the fundamentals of Sorting, which is the process of arranging elements in a particular order, usually ascending or descending.
 
-| Details       | Information       |
-| ------------- | ----------------- |
-| 📆 **Date**   | September 2, 2026 |
-| 📍 **Day**    | Wednesday         |
-| ✅ **Status** | Completed         |
+🔹 Topics Covered
+Sorting fundamentals
+Selection Sort — Selects the smallest element from the unsorted part and places it in its correct position.
+Bubble Sort — Compares adjacent elements and swaps them if they are in the wrong order.
+Insertion Sort — Takes an element and inserts it into its correct position in the already sorted part.
+Comparing elements
+Swapping elements
+Sorting an array in ascending order
+Understanding the step-by-step working of sorting algorithms
+🧠 Problems Practiced
+Selection Sort
+Bubble Sort
+Insertion Sort
+2️⃣ Searching
 
----
+Today I learned the fundamentals of Searching, which is the process of finding a particular element or value in an array.
 
-# 1️⃣ Sorting
+🔹 Topics Covered
+Searching fundamentals
+Linear Search — Checks each element one by one until the target is found or the array ends.
+Binary Search — Searches for an element in a sorted array by repeatedly dividing the search space into two halves.
+Understanding how Binary Search reduces the search space
+Understanding the Monotonic Property
+Difference between Linear Search and Binary Search
+🔹 Monotonic Property
 
-**Sorting** is the process of arranging elements in a particular order, usually in **ascending or descending order**.
-
-### 🔹 Topics Covered
-
-* Sorting fundamentals
-* **Selection Sort** — Finds the smallest element from the unsorted part and places it at the correct position.
-* **Bubble Sort** — Repeatedly compares adjacent elements and swaps them if they are in the wrong order.
-* **Insertion Sort** — Takes one element at a time and inserts it into its correct position among the previously sorted elements.
-* Comparing elements
-* Swapping elements
-* Arranging elements in ascending order
-* Understanding the step-by-step working of sorting algorithms
-
-### 🧠 Problems Practiced
-
-* Selection Sort
-* Bubble Sort
-* Insertion Sort
-
----
-
-# 2️⃣ Searching
-
-**Searching** is the process of finding a particular element or value in a data structure such as an array.
-
-### 🔹 Topics Covered
-
-* Searching fundamentals
-* **Linear Search** — Checks each element one by one until the target element is found or the array ends.
-* **Binary Search** — Searches for an element in a sorted array by repeatedly dividing the search space into two halves.
-* Understanding how Binary Search reduces the search space
-* Understanding the **Monotonic Property**
-* Difference between Linear Search and Binary Search
-
-### 🔹 Monotonic Property
-
-A **monotonic property** is a condition where the result changes in only one direction as we move through the search space.
+A monotonic property is a condition where the result changes in only one direction as we move through the search space.
 
 For example:
 
-```text
 false false false false true true true true
 
-# 3️⃣ Array Problems
+or
 
-Practiced **easy array problems** to improve array manipulation and problem-solving skills.
+true true true true false false false false
 
-### 🧠 Problems Practiced
+This property allows Binary Search to eliminate half of the search space at every step.
 
-* Largest Element
-* Second Largest Element
-* Check if the Array is Sorted
-* Remove Duplicates from Sorted Array
-* Left Rotate Array by One
+🧠 Problems Practiced
+Linear Search
+Binary Search
+Understanding monotonic property in Binary Search problems
+3️⃣ Array Problems
 
----
+An array is a collection of elements stored in a sequence, where each element can be accessed using its index.
 
-# 📊 Today's Progress
+Practiced easy array problems to improve array manipulation and problem-solving skills.
 
-| Topic                    | Status      |
-| ------------------------ | ----------- |
-| Sorting Basics           | ✅ Completed |
-| Selection Sort           | ✅ Completed |
-| Bubble Sort              | ✅ Completed |
-| Insertion Sort           | ✅ Completed |
-| Searching Basics         | ✅ Completed |
-| Linear Search            | ✅ Completed |
-| Binary Search            | ✅ Completed |
-| Monotonic Property       | ✅ Completed |
-| Largest Element          | ✅ Completed |
-| Second Largest Element   | ✅ Completed |
-| Check if Array is Sorted | ✅ Completed |
-| Remove Duplicates        | ✅ Completed |
-| Left Rotate Array by One | ✅ Completed |
+🧠 Problems Practiced
+Largest Element — Finds the maximum value present in the array.
+Second Largest Element — Finds the second-largest value present in the array.
+Check if the Array is Sorted — Checks whether the elements are arranged in increasing or non-decreasing order.
+Remove Duplicates from Sorted Array — Removes repeated elements while keeping only unique elements in the sorted array.
+Left Rotate Array by One — Moves every element one position to the left and moves the first element to the last position.
+📊 Today's Progress
+Topic	Status
+Sorting Basics	✅ Completed
+Selection Sort	✅ Completed
+Bubble Sort	✅ Completed
+Insertion Sort	✅ Completed
+Searching Basics	✅ Completed
+Linear Search	✅ Completed
+Binary Search	✅ Completed
+Monotonic Property	✅ Completed
+Largest Element	✅ Completed
+Second Largest Element	✅ Completed
+Check if Array is Sorted	✅ Completed
+Remove Duplicates	✅ Completed
+Left Rotate Array by One	✅ Completed
+📈 Progress
 
----
+Day 2 — Completed ✅
 
-## 📈 Progress
-
-**Day 2 — Completed ✅**
-
-> **Sorting → Searching → Array Problems → Practice 🔥**
+Sorting → Searching → Array Problems → Practice 🔥
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
