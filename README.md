@@ -10,8 +10,6 @@
 | ----------------- | ------------------- |
 | 📆 **Date**       | September 1, 2026   |
 | 📍 **Day**        | Tuesday             |
-| ⏱️ **Study Time** | 5 Hours             |
-| 🎯 **Focus**      | Hashing & Recursion |
 | ✅ **Status**      | Completed           |
 
 ---
@@ -113,6 +111,107 @@ I learned the fundamentals of **Recursion** and how a function repeatedly calls 
 > Consistency > Motivation
 > **Learn → Practice → Solve → Repeat 🔥**
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# 📚 DSA Learning Progress — Day 2
+
+> **Daily DSA Practice & Learning Log**
+
 ---
 
+## 📅 Daily Summary
 
+| Details       | Information       |
+| ------------- | ----------------- |
+| 📆 **Date**   | September 2, 2026 |
+| 📍 **Day**    | Wednesday         |
+| ✅ **Status** | Completed         |
+
+---
+
+# 1️⃣ Sorting
+
+**Sorting** is the process of arranging elements in a particular order, usually in **ascending or descending order**.
+
+### 🔹 Topics Covered
+
+* Sorting fundamentals
+* **Selection Sort** — Finds the smallest element from the unsorted part and places it at the correct position.
+* **Bubble Sort** — Repeatedly compares adjacent elements and swaps them if they are in the wrong order.
+* **Insertion Sort** — Takes one element at a time and inserts it into its correct position among the previously sorted elements.
+* Comparing elements
+* Swapping elements
+* Arranging elements in ascending order
+* Understanding the step-by-step working of sorting algorithms
+
+### 🧠 Problems Practiced
+
+* Selection Sort
+* Bubble Sort
+* Insertion Sort
+
+---
+
+# 2️⃣ Searching
+
+**Searching** is the process of finding a particular element or value in a data structure such as an array.
+
+### 🔹 Topics Covered
+
+* Searching fundamentals
+* **Linear Search** — Checks each element one by one until the target element is found or the array ends.
+* **Binary Search** — Searches for an element in a sorted array by repeatedly dividing the search space into two halves.
+* Understanding how Binary Search reduces the search space
+* Understanding the **Monotonic Property**
+* Difference between Linear Search and Binary Search
+
+### 🔹 Monotonic Property
+
+A **monotonic property** is a condition where the result changes in only one direction as we move through the search space.
+
+For example:
+
+```text
+false false false false true true true true
+
+# 3️⃣ Array Problems
+
+Practiced **easy array problems** to improve array manipulation and problem-solving skills.
+
+### 🧠 Problems Practiced
+
+* Largest Element
+* Second Largest Element
+* Check if the Array is Sorted
+* Remove Duplicates from Sorted Array
+* Left Rotate Array by One
+
+---
+
+# 📊 Today's Progress
+
+| Topic                    | Status      |
+| ------------------------ | ----------- |
+| Sorting Basics           | ✅ Completed |
+| Selection Sort           | ✅ Completed |
+| Bubble Sort              | ✅ Completed |
+| Insertion Sort           | ✅ Completed |
+| Searching Basics         | ✅ Completed |
+| Linear Search            | ✅ Completed |
+| Binary Search            | ✅ Completed |
+| Monotonic Property       | ✅ Completed |
+| Largest Element          | ✅ Completed |
+| Second Largest Element   | ✅ Completed |
+| Check if Array is Sorted | ✅ Completed |
+| Remove Duplicates        | ✅ Completed |
+| Left Rotate Array by One | ✅ Completed |
+
+---
+
+## 📈 Progress
+
+**Day 2 — Completed ✅**
+
+> **Sorting → Searching → Array Problems → Practice 🔥**
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
