@@ -112,7 +112,6 @@ I learned the fundamentals of **Recursion** and how a function repeatedly calls 
 > **Learn → Practice → Solve → Repeat 🔥**
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 📚 DSA Learning Progress — Day 2
 
 Daily DSA Practice & Learning Log
@@ -124,81 +123,282 @@ Details	Information
 ✅ Status	Completed
 1️⃣ Sorting
 
-Today I learned the fundamentals of Sorting, which is the process of arranging elements in a particular order, usually ascending or descending.
+Today I learned the fundamentals of Sorting and how different sorting techniques can be used to arrange elements in a specific order.
 
 🔹 Topics Covered
-Sorting fundamentals
-Selection Sort — Selects the smallest element from the unsorted part and places it in its correct position.
-Bubble Sort — Compares adjacent elements and swaps them if they are in the wrong order.
-Insertion Sort — Takes an element and inserts it into its correct position in the already sorted part.
+What is Sorting?
+Why sorting is useful
+Ascending and descending order
 Comparing elements
 Swapping elements
-Sorting an array in ascending order
-Understanding the step-by-step working of sorting algorithms
+In-place sorting
+Stable and unstable sorting
+Best, average, and worst-case complexity
+Understanding sorting algorithms through dry runs
 🧠 Problems Practiced
-Selection Sort
-Bubble Sort
-Insertion Sort
-2️⃣ Searching
+Sort an array in ascending order
+Sort an array in descending order
+Identify the largest and smallest elements
+Rearrange elements using sorting techniques
+Understand sorting through dry runs
+2️⃣ Selection Sort
 
-Today I learned the fundamentals of Searching, which is the process of finding a particular element or value in an array.
+I learned how Selection Sort repeatedly finds the smallest element from the unsorted portion and places it at the correct position.
 
 🔹 Topics Covered
-Searching fundamentals
-Linear Search — Checks each element one by one until the target is found or the array ends.
-Binary Search — Searches for an element in a sorted array by repeatedly dividing the search space into two halves.
-Understanding how Binary Search reduces the search space
-Understanding the Monotonic Property
-Difference between Linear Search and Binary Search
-🔹 Monotonic Property
-
-A monotonic property is a condition where the result changes in only one direction as we move through the search space.
-
-For example:
-
-false false false false true true true true
-
-or
-
-true true true true false false false false
-
-This property allows Binary Search to eliminate half of the search space at every step.
-
+Selection Sort fundamentals
+Finding the minimum element
+Sorted and unsorted portions
+Swapping elements
+Number of passes
+In-place sorting
+Time and space complexity
 🧠 Problems Practiced
-Linear Search
-Binary Search
-Understanding monotonic property in Binary Search problems
-3️⃣ Array Problems
+Sort an array using Selection Sort
+Find the minimum element in each pass
+Perform Selection Sort manually
+Dry run Selection Sort on different arrays
+3️⃣ Bubble Sort
 
-An array is a collection of elements stored in a sequence, where each element can be accessed using its index.
+I learned how Bubble Sort repeatedly compares adjacent elements and swaps them when they are in the wrong order.
 
-Practiced easy array problems to improve array manipulation and problem-solving skills.
-
+🔹 Topics Covered
+Bubble Sort fundamentals
+Comparing adjacent elements
+Swapping elements
+Multiple passes
+Largest element moving to the end
+Optimized Bubble Sort
+Time and space complexity
 🧠 Problems Practiced
-Largest Element — Finds the maximum value present in the array.
-Second Largest Element — Finds the second-largest value present in the array.
-Check if the Array is Sorted — Checks whether the elements are arranged in increasing or non-decreasing order.
-Remove Duplicates from Sorted Array — Removes repeated elements while keeping only unique elements in the sorted array.
-Left Rotate Array by One — Moves every element one position to the left and moves the first element to the last position.
+Sort an array using Bubble Sort
+Perform Bubble Sort step-by-step
+Understand adjacent element swapping
+Identify how the largest element moves to the end
+Practice optimized Bubble Sort
+4️⃣ Insertion Sort
+
+I learned how Insertion Sort builds the sorted portion of an array one element at a time by inserting each element into its correct position.
+
+🔹 Topics Covered
+Insertion Sort fundamentals
+Sorted and unsorted portions
+Selecting the current element
+Comparing with previous elements
+Shifting elements
+Inserting an element at the correct position
+Time and space complexity
+🧠 Problems Practiced
+Sort an array using Insertion Sort
+Insert elements into their correct positions
+Perform Insertion Sort manually
+Understand shifting of elements
+Dry run Insertion Sort on different arrays
+5️⃣ Quick Sort
+
+I learned the fundamentals of Quick Sort and how the pivot is used to divide an array into smaller sections.
+
+🔹 Topics Covered
+Quick Sort fundamentals
+Divide and Conquer
+Choosing a pivot
+Taking the low element as pivot
+Partitioning
+Placing the pivot in its correct position
+Recursive calls
+Time and space complexity
+Quick Sort dry runs
+🧠 Problems Practiced
+Sort an array using Quick Sort
+Choose the low element as pivot
+Perform partitioning
+Understand recursive partitioning
+Dry run Quick Sort step-by-step
+6️⃣ Array Rotation
+
+I practiced array rotation and understood how elements can be shifted from one position to another.
+
+🔹 Topics Covered
+Left rotation
+Moving the first element to the end
+Shifting array elements
+Using a temporary variable/array
+Understanding index positions
+Time and space complexity
+🧠 Problems Practiced
+Rotate an array by one position
+Left rotate an array
+Store shifted elements temporarily
+Move the first element to the last position
+Print the rotated array
+⏱️ Algorithm Complexity
+
+Understanding Time Complexity and Space Complexity is an important part of analyzing DSA algorithms.
+
+📊 Sorting Algorithm Complexity
+Algorithm	Best Case	Average Case	Worst Case	Space	Stable
+Selection Sort	O(n²)	O(n²)	O(n²)	O(1)	❌ No
+Bubble Sort	O(n)*	O(n²)	O(n²)	O(1)	✅ Yes
+Insertion Sort	O(n)	O(n²)	O(n²)	O(1)	✅ Yes
+Quick Sort	O(n log n)	O(n log n)	O(n²)	O(log n)**	❌ No
+
+* Bubble Sort achieves O(n) best case when implemented with an early-exit/swapped flag.
+** Quick Sort's auxiliary space is typically O(log n) for balanced recursion, but can reach O(n) in the worst case due to the recursion stack.
+
+🧠 Sorting Algorithm Comparison
+Algorithm	Main Idea	How It Works
+Selection Sort	Select Minimum	Find the minimum and place it at the correct position
+Bubble Sort	Adjacent Swapping	Compare adjacent elements and swap when needed
+Insertion Sort	Insert Correctly	Take an element and insert it into the sorted portion
+Quick Sort	Divide & Conquer	Select a pivot and partition the array around it
+🔍 Complexity Breakdown
+Selection Sort
+
+Time Complexity: O(n²)
+
+Space Complexity: O(1)
+
+Selection Sort scans the remaining unsorted elements for every position.
+
+Outer loop  → O(n)
+Inner loop  → O(n)
+
+Total → O(n × n) → O(n²)
+Bubble Sort
+
+Best Case: O(n)*
+Average Case: O(n²)
+Worst Case: O(n²)
+Space: O(1)
+
+Bubble Sort repeatedly compares adjacent elements.
+
+Best Case:
+Already sorted → O(n)
+
+Average/Worst:
+Multiple passes + comparisons → O(n²)
+Insertion Sort
+
+Best Case: O(n)
+Average Case: O(n²)
+Worst Case: O(n²)
+Space: O(1)
+
+When the array is already sorted, each element requires only one comparison.
+
+Best:
+Already sorted → O(n)
+
+Worst:
+Reverse sorted → O(n²)
+Quick Sort
+
+Best Case: O(n log n)
+Average Case: O(n log n)
+Worst Case: O(n²)
+
+Quick Sort works by repeatedly partitioning the array around a pivot.
+
+Balanced partitions:
+n → n/2 → n/4 → n/8 ...
+              ↓
+         log n levels
+
+Each level → O(n)
+
+Total → O(n log n)
+
+If the pivot repeatedly creates highly unbalanced partitions:
+
+n → n-1 → n-2 → n-3 ...
+
+Total → O(n²)
+🔄 Array Rotation Complexity
+
+For a simple left rotation by one position:
+
+Operation	Time Complexity	Space Complexity
+Left Rotate by 1	O(n)	O(1)*
+
+* O(1) extra space is possible when the rotation is performed in-place. Using an additional array would require O(n) space.
+
+Example
+Before:
+[1, 2, 3, 4, 5]
+
+After Left Rotation:
+[2, 3, 4, 5, 1]
+📌 Complexity Cheat Sheet
+Complexity	Meaning
+O(1)	Constant time
+O(log n)	Logarithmic time
+O(n)	Linear time
+O(n log n)	Linearithmic time
+O(n²)	Quadratic time
+O(2ⁿ)	Exponential time
+O(n!)	Factorial time
+⭐ Important Order
+O(1)
+  ↓
+O(log n)
+  ↓
+O(n)
+  ↓
+O(n log n)
+  ↓
+O(n²)
+  ↓
+O(2ⁿ)
+  ↓
+O(n!)
+
+Goal: Always try to design algorithms with better time and space complexity whenever possible.
+
 📊 Today's Progress
 Topic	Status
 Sorting Basics	✅ Completed
 Selection Sort	✅ Completed
 Bubble Sort	✅ Completed
 Insertion Sort	✅ Completed
-Searching Basics	✅ Completed
-Linear Search	✅ Completed
-Binary Search	✅ Completed
-Monotonic Property	✅ Completed
-Largest Element	✅ Completed
-Second Largest Element	✅ Completed
-Check if Array is Sorted	✅ Completed
-Remove Duplicates	✅ Completed
-Left Rotate Array by One	✅ Completed
+Quick Sort	✅ Completed
+Pivot Concept	✅ Completed
+Partitioning	✅ Completed
+Quick Sort Dry Run	✅ Completed
+Array Rotation	✅ Completed
+Left Rotation	✅ Completed
+Array Shifting	✅ Completed
+Time Complexity	✅ Completed
+Space Complexity	✅ Completed
+Algorithm Comparison	✅ Completed
+Problem Solving	✅ Completed
+⏱️ Study Session
+
+Total Study Time: 5 Hours 🕔
+
+Sorting → Complexity → Dry Run → Array Manipulation → Problem Solving
+
+🚀 Key Takeaways
+Learned the fundamentals of Sorting algorithms.
+Understood how Selection Sort finds and places the minimum element.
+Learned how Bubble Sort compares and swaps adjacent elements.
+Understood how Insertion Sort builds the sorted portion of an array.
+Learned the Divide and Conquer approach used by Quick Sort.
+Understood how the pivot helps partition an array.
+Practiced Quick Sort using the low element as the pivot.
+Improved my understanding of recursive partitioning.
+Practiced array rotation and element shifting.
+Learned to calculate Time Complexity.
+Learned to calculate Space Complexity.
+Compared different sorting algorithms based on their complexity.
+Improved my ability to analyze algorithms before implementing them.
+Practiced multiple dry runs to understand algorithms internally.
 📈 Progress
 
 Day 2 — Completed ✅
 
-Sorting → Searching → Array Problems → Practice 🔥
+Consistency > Motivation
+Learn → Understand → Practice → Analyze → Solve → Repeat 🔥
+
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
